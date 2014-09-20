@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+	<html>
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+		 <title>T4</title>
+			<meta name="author" content="Nathan Scott Ivy" />
+			<meta name="description" content="Nate Ivy, resume" />
+			<link rel="shortcut icon" href="img/custom.png" />
+			<link rel='stylesheet prefetch' href='http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'>
+			<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+			<link rel="stylesheet" href="css/css.css" media="screen" type="text/css" />
+			<style>
+				body {
+					background-image: url('img/noise_lines.png');
+				}
+			</style>
+		</head>
+		
+		<!--filespage-->
+		<body link = "black">
+			<div id = "wrap">
+			<div id = "nav">
+				<ul>
+					<li><a class = "grow" href = "index.html" title = "home"><img src="img/homeDD.png" height = "25px"/></a></li>
+					<li><a class = "grow" href="about.html" title = "about"><img src="img/aboutDD.png" height = "25px"/></a></li>
+					<li><a class = "grow" href="files.html" title = "code"><img src="img/filesDD.png" height = "25px"/></a></li>
+				</ul>
+			</div>
+			</div>
+			<table width="100%" cellpadding="5">
+				<tr>
+					<td width="20%" height="400"></td>
+						<td width = "60%">
+						<table width="100%" cellpadding="5" align = "center">
+							<tr>
+								<td height="50"></td>
+							</tr>
+							<tr>
+								<td height="60%">
+								<table width="100%" cellspacing ="25px">
+									<tr>
+										<td width = "150" height = "150" align = "center">
+											<div class = "float-shadow">
+											<a href="#test-popup1" class="open-popup-link"><img src = "img/filesgit.png" height = "150"/></a>
+											</div>
+										</td>
+										<td width = "150" align = "center">
+											<div class = "float-shadow">
+											<a href="#test-popup2" class="open-popup-link"><img src = "img/filesnotes.png" height = "150"/></a>
+										</div>
+										</td>
+									</tr>
+									<tr>
+										<td height = "150" align = "center">
+											<div class = "float-shadow">
+											<a href="#test-popup3" class="open-popup-link"><img src = "img/filesvideos.png" height = "150"/></a>
+											</div>
+										</td>
+										<td align = "center">
+											<div class = "float-shadow">
+											<a href="#test-popup4" class="open-popup-link"><img src = "img/filesprojects.png" height = "150"/></a>
+											</div>
+										</td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+							<tr>
+								<td height = "50">
+								</td>
+							</tr>
+						</table>
+						</td>
+						<td width = "20%"></td>
+				</tr>
+			</table>	
+			
+			<!-- Popup itself -->
+			<div id="test-popup1" class="white-popup mfp-hide" >
+				<div align = "center">
+				<a class = "shrink" href = "https://github.com/thatsscience"><img src = "img/gitnate.png"/></a>
+				<a class = "shrink" href = "https://github.com/ryandonivy"><img src = "img/gitryan.png"/></a>
+				<a class = "shrink" href = "https://github.com/86tango"><img src = "img/gitjames.png"/>
+				<a class = "shrink" href = "https://github.com/GTgonefishing"><img src = "img/gitgreg.png"/>
+				<a class = "shrink" href = "https://github.com/mbrow234"><img src = "img/gitmike.png"/></a>
+				<a class = "shrink" href = "https://github.com/SomeDudeJacob"><img src = "img/gitjake.png"/>
+				</div>
+			</div>
+			<div id="test-popup2" class="white-popup mfp-hide">
+				<!--NOTE CONTENT-->
+				<div align = "center">
+				<a href = "notes/agileDevelopment.txt" title = "agile development 9/17"><img src = "img/notes.png"></a>
+				<a href = "notes/risk.txt" title = "risk notes"><img src = "img/notes.png"></a>
+				<a href = "notes/groupInfo.txt" title = "group info"><img src = "img/notes.png"></a>
+				<br/>
+				<a href = "notes/photo(2).jpg" title = "pic1"><img src = "img/pics.png"></a>
+				<a href = "notes/photo(3).jpg" title = "pic2"><img src = "img/pics.png"></a>
+				<a href = "notes/photo(4).jpg" title = "pic3"><img src = "img/pics.png"></a>
+				</div>
+				
+			</div>
+			<div id="test-popup3" class="white-popup mfp-hide">
+				<!--VIDEO CONTENT-->
+				<div align = "center">
+				<a href = "https://www.youtube.com/watch?v=aV5JhLcqxrw&list=UUKyf1Lf45Qlh1dQaO3ewv1g" title = "showcase"><img src = "img/p1.png"/>SHOWCASE</a>
+				<a href = "https://www.youtube.com/watch?v=fAR7MD05NL8" title = "lab bmi"><img src = "img/p2.png"/>New</a>
+				<a href = "https://www.youtube.com/watch?v=fAR7MD05NL8"><img src = "img/p3.png"/>New</a>
+				<a href = "https://www.youtube.com/watch?v=fAR7MD05NL8"><img src = "img/p4.png"/>New</a>
+				</div>
+			<div id="test-popup4" class="white-popup mfp-hide">
+				<!--PROJECT CONTENT-->
+				<div align = "center">
+				<a href = "" title = "project1"><img src = "img/p1.png"></a>
+				<a href = "" title = "project1"><img src = "img/p2.png"></a>
+				<a href = "" title = "project1"><img src = "img/p3.png"></a>
+				<a href = "" title = "project1"><img src = "img/p4.png"></a>
+				</div>
+			</div>
+			
+			<!--Scripts are faster at the bottom of the page-->	
+			<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+			<script src='http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js'></script>
+			<script src="js/index.js"></script>
+		</body>
+	</html>
